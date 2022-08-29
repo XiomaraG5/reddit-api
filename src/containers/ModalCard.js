@@ -2,7 +2,6 @@ import React from 'react'
 import Modal from 'react-bootstrap/Modal';
 import { BASE } from '../services/urls';
 const ModalCard = ({show,setShow,item}) => {
-    console.log(item);
   return (
     <Modal show={show} onHide={()=>setShow(false)}>
         
