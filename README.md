@@ -1,4 +1,4 @@
-# Aplicación desarrollada con ReactJS y enviada a producción con Netlify. Puede visitar la página en este [Link](https://pet-loving.netlify.app)
+# Aplicación desarrollada con ReactJS y enviada a producción con Netlify. Puede visitar la página en este [Link](https://reddit-api-navacom.netlify.app)
 
 ## Getting Started
 
