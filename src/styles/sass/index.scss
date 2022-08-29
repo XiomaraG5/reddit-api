@@ -1,0 +1,19 @@
+///-------------------VARIABLES
+$bg-color: #283547;
+$font-color-Regular: #E9F4FF;
+$shadow: #607FF2;
+$violet: #4C51C67e;
+$font-title: 'Kalam', cursive;
+$tertiary: #FD830D;
+///-------------------IMPORTS
+@use 'mainview.scss';
+@use 'cardstopics.scss';
+///-------------------GENERAL STYLES
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: $bg-color;
+    color: $font-color-Regular;
+}

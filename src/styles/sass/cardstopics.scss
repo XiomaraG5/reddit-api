@@ -1,0 +1,58 @@
+$bg-color: #283547;
+$font-color-Regular: #E9F4FF;
+$shadow: #607FF2;
+$violet: #4C51C67e;
+$font-title: 'Kalam', cursive;
+$tertiary: #FD830D;
+
+
+.bi-arrow-right-circle-fill{
+    cursor: pointer;
+    &:hover{
+        color: $tertiary;
+    }
+}
+.ModalCard{
+    width: 100%;
+    .link{
+        // text-decoration: none;
+        color: $bg-color;
+        font-family: $font-title;
+        &:hover{
+            font-weight: 900;
+        }
+    }
+}
+
+.bi-x-circle-fill{
+    color: $font-color-Regular;
+    font-size: 30px;
+    &:hover{
+        color: $tertiary;
+    }
+}
+.btnTop{
+    z-index: 2000;
+    cursor: pointer;
+    p{
+        position: fixed;
+        bottom: 0px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        margin-left: -5%;
+        background-color: $shadow;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 100%;
+        @media (min-width:420px) {
+            left: 40px;
+        }
+        @media (min-width:820px) {
+            left: 60px;
+        }
+        @media (min-width:1020px) {
+            left: 80px;
+        }
+    }
+}

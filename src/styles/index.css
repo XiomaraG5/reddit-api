@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+.header {
+  width: 90%;
+  margin: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 2px 0px #607FF2;
+  -moz-box-shadow: 2px 2px 2px 0px #607FF2;
+  box-shadow: 2px 2px 2px 0px #607FF2;
+  background-color: #607FF2;
+}
+.header i {
+  font-size: 45px;
+}
+.header p {
+  height: 15px;
+  font-size: 25px;
+  font-family: "Kalam", cursive;
+}
+@media (max-width: 580px) {
+  .header p {
+    height: auto;
+    text-align: center;
+  }
+}
+
+.titles {
+  font-family: "Kalam", cursive;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 2px #607FF2;
+}
+
+.card {
+  background-color: rgba(76, 81, 198, 0.4941176471);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: 0px 3px 0px 0px #FD830D;
+  -moz-box-shadow: 0px 3px 0px 0px #FD830D;
+  box-shadow: 0px 3px 0px 0px #FD830D;
+}
+.card .card-body {
+  width: 100%;
+}
+.card .Card_index {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  background-color: #FD830D;
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  align-items: center;
+  color: #E9F4FF;
+  justify-content: center;
+}
+.card .Card_index p {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2.2rem;
+  font-family: "Kalam", cursive;
+  font-weight: 900;
+}
+.card .titles {
+  font-size: 1rem;
+  margin-top: 2%;
+  text-align: left;
+  padding-right: 25%;
+  font-weight: 900;
+}
+.card p:last-child {
+  margin-top: -8px;
+}
+.card img {
+  display: flex;
+  margin: auto;
+  margin-bottom: 4%;
+  width: 80%;
+  max-height: 35%;
+}
+@media (max-width: 580px) {
+  .card {
+    height: auto;
+    text-align: center;
+  }
+}
+@media (min-width: 650px) {
+  .card {
+    width: 42%;
+  }
+}
+@media (min-width: 800px) {
+  .card {
+    width: 30%;
+  }
+}
+
+.bi-arrow-right-circle-fill {
+  cursor: pointer;
+}
+.bi-arrow-right-circle-fill:hover {
+  color: #FD830D;
+}
+
+.ModalCard {
+  width: 100%;
+}
+.ModalCard .link {
+  color: #283547;
+  font-family: "Kalam", cursive;
+}
+.ModalCard .link:hover {
+  font-weight: 900;
+}
+
+.bi-x-circle-fill {
+  color: #E9F4FF;
+  font-size: 30px;
+}
+.bi-x-circle-fill:hover {
+  color: #FD830D;
+}
+
+.btnTop {
+  z-index: 2000;
+  cursor: pointer;
+}
+.btnTop p {
+  position: fixed;
+  bottom: 0px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  margin-left: -5%;
+  background-color: #607FF2;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 100%;
+}
+@media (min-width: 420px) {
+  .btnTop p {
+    left: 40px;
+  }
+}
+@media (min-width: 820px) {
+  .btnTop p {
+    left: 60px;
+  }
+}
+@media (min-width: 1020px) {
+  .btnTop p {
+    left: 80px;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #283547;
+  color: #E9F4FF;
+}
+
+/*# sourceMappingURL=index.css.map */

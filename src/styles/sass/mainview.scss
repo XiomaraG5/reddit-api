@@ -1,0 +1,101 @@
+///-------------------VARIABLES
+$bg-color: #283547;
+$font-color-Regular: #E9F4FF;
+$shadow:#607FF2 ;
+$violet: #4C51C67e;
+$font-title:'Kalam',cursive;
+$tertiary:#FD830D;
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.header{
+    width: 90%;
+    margin: auto;
+    // border: 1px solid $font-color-Regular;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 2px 2px 0px $shadow;
+    -moz-box-shadow: 2px 2px 2px 0px $shadow;
+    box-shadow: 2px 2px 2px 0px $shadow;
+    background-color: $shadow;
+    i{
+        font-size: 45px;
+    }
+    p{
+        height: 15px;
+        font-size: 25px;
+        font-family: $font-title;
+        @media (max-width:580px) {
+            height: auto;
+            text-align: center;
+        }
+    }
+}
+
+.titles{
+    font-family: $font-title;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px  $shadow;
+}
+.card{
+    background-color: $violet;
+    border: none;
+    cursor: pointer;
+    
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 0px 3px 0px 0px $tertiary;
+    -moz-box-shadow: 0px 3px 0px 0px $tertiary;
+    box-shadow: 0px 3px 0px 0px $tertiary;
+    .card-body{
+        width: 100%;
+    }
+    .Card_index{
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        background-color: $tertiary;
+        height: 15vmin;
+        width: 15vmin;
+        border-radius: 50px 0px  0px 50px;
+        display: flex;
+        align-items: center;
+        color: $font-color-Regular;
+        justify-content: center;
+        p{
+            display: flex;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 2.2rem;
+            font-family: $font-title;
+            font-weight: 900;
+        }
+        
+    }
+    .titles {
+        font-size: 1rem;
+        margin-top: 2%;
+        text-align: left;
+        padding-right: 25%;
+        font-weight: 900;
+    }
+    p:last-child{
+        margin-top: -8px;
+    }
+    img{
+        display: flex;
+        margin: auto;
+        margin-bottom: 4%;
+        width: 80%;
+        max-height: 35%;
+    }
+    @media (max-width:580px) {
+            height: auto;
+            text-align: center;
+        }
+    @media (min-width:650px) {
+        width: 42%;
+    }
+    @media (min-width:800px) {
+        width: 30%;
+    }
+}
